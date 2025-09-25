@@ -24,30 +24,30 @@ h2 { font-family: 'Gloria Hallelujah', cursive;
       margin-top: 1.5em;
       word-spacing: 3px; }
 
-
-.top-section { display: flex;
-                gap: 20px; }
-
-.main-image { flex: 1; }
-
 #main-content { background-color: rgba(255, 245, 235, 0.9);
                 padding: 20px;
                 border-radius: 10px;
                 max-width: 900px;
                 margin: 0 auto; }
 
-.contact-info { background-color: rgba(255, 220, 180, 0.8);
+.top-section { display: flex;
+                gap: 20px;
+                align-items: flex-start;
+                margin-bottom: 30px }
+
+.main-image { flex: 1;
+              max-width: 50%; }
+
+
+.contact-info { flex: 1; 
+                max-width: 50%;
+                background-color: rgba(255, 220, 180, 0.8);
                 padding: 15px;
                 border-radius: 8px;
-                margin: 0;
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-                justify-content: center; }
+                margin: 0; }
 
 .skills-section { border: 2px solid #cc5500;
                   padding: 20px;
-                  border-radius: 8px;
                   margin: 20px 0; }
 
 
@@ -84,11 +84,11 @@ ul li ul li { font-size: 0.95em;
 
 
 /* for links */
-a { color: #cc5500;
+a { color: #0077cc;
     text-decoration: none;
     text-transform: none; }
 
-a:visited { color: #cc5500; }
+a:visited { color: #0077cc; }
 
 a:focus { outline: 2px solid #143047;
           outline-offset: 2px;
@@ -104,18 +104,20 @@ a:active { color: #003f6b; }
 
 /* psuedo */
 
+p::first-line { font-weight: bold;
+                text-transform: uppercase; }
+
 h2::first-letter { font-size: 2.5rem;
-                    color: #cc5500; }
+                    color: #0077cc; }
 
 #main-content > p:first-of-type::first-line { font-weight: bold; }
 
 .contact-info h2 { margin-top: 0; }
 
-.contact-info img { margin: 10px auto;
+.contact-info img { border-radius: 15px;
+                    max-width: 100%;
+                    height: auto;
                     display: block;
-                    align-self: center;
-                    border: 3px solid #cc5500; }
+                    margin: 10px 0; }
 
 .skills-section h2 { margin-top: 0; }
-
-
