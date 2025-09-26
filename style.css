@@ -123,7 +123,7 @@ h1::after { content: "";
                                   margin-top: 0;
                                   margin-bottom: 1.5em; }
 
-#main-content > :not(.top-section) { margin-left: 40px; }
+#main-content > :not(.top-section) { margin-left: 30px; }
 
 .contact-info h2 { margin-top: 0;
                     margin-bottom: 15px; }
