@@ -114,6 +114,8 @@ h2::first-letter { font-size: 2.5rem;
                                   margin-top: 0;
                                   margin-bottom: 1.5em; }
 
+#main-content > :not(.top-section) { margin-left: 40px; }
+
 .contact-info h2 { margin-top: 0;
                     margin-bottom: 15px; }
 
@@ -121,6 +123,7 @@ h2::first-letter { font-size: 2.5rem;
                                 color: inherit; }
 
 .contact-info img { margin: 10px auto;
+                  margin-top: 3em;
                     display: block;
                     align-self: center;
                     border: 4px solid #cc5500; }
