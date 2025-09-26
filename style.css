@@ -36,6 +36,7 @@ h2 { font-family: 'Gloria Hallelujah', cursive;
 
 .main-image { flex: 1; }
 
+.main-image img { border: 4px solid #cc5500; }
 
 .contact-info {  background-color: rgba(255, 220, 180, 0.8);
                 padding: 20px 15px ;
@@ -102,7 +103,7 @@ a:active { color: #003f6b; }
 
 
 
-/* psuedo */
+/* psuedo? */
 
 h2::first-letter { font-size: 2.5rem;
                     color: #cc5500; }
