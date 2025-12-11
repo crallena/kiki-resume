@@ -13,7 +13,7 @@ body {
   background-attachment: fixed;
 }
 
-/* example of grouping selector */
+/* grouping selector */
 h1,
 h2 {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
@@ -45,7 +45,7 @@ h2 {
   margin: 0 auto;
 }
 
-/* let Bootstrap handle flex; keep spacing only */
+/* Bootstrap handling flex- keep spacing only */
 .top-section {
   margin: 0 60px;
 }
@@ -94,7 +94,7 @@ ul li {
   text-indent: 10px;
 }
 
-/* pseudo-element custom bullet */
+/* pseudo-element custom bullet- paw */
 ul li::before {
   content: "";
   position: absolute;
